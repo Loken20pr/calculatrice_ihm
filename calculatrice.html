@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculatrice</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/calculatrice.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <script src="script/modele.js" defer></script>
+        <script src="script/controleur.js" defer></script>
+    </head>
+    <body>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 fond p-4">
+                    
+                    <div class="row mb-4">
+                        <div class="col-12 ecran d-flex align-items-center justify-content-end p-3" id="screen">
+                           </div>
+                    </div>
+
+                    <div class="row g-2 mb-2">
+                        <div class="col-5">
+                            <button type="button" id="CE" class="touche touche-orange w-100">CE</button>
+                        </div>
+                        <div class="col-5">
+                            <button type="button" id="C" class="touche touche-orange w-100">C</button>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" id="RetourArriere" class="touche touche-orange w-100"><i class="fa-solid fa-arrow-left"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-5 g-2">
+                        
+                        <div class="col"><button type="button" id="MC" class="touche touche-rose w-100">MC</button></div>
+                        <div class="col"><button type="button" id="MR" class="touche touche-rose w-100">MR</button></div>
+                        <div class="col"><button type="button" id="MS" class="touche touche-rose w-100">MS</button></div>
+                        <div class="col"><button type="button" id="MPlus" class="touche touche-rose w-100">M+</button></div>
+                        <div class="col"><button type="button" id="MMoins" class="touche touche-rose w-100">M-</button></div>
+
+                        <div class="col"><button type="button" id="7" class="touche touche-gris w-100">7</button></div>
+                        <div class="col"><button type="button" id="8" class="touche touche-gris w-100">8</button></div>
+                        <div class="col"><button type="button" id="9" class="touche touche-gris w-100">9</button></div>
+                        <div class="col"><button type="button" id="PlusMoins" class="touche touche-blanc w-100">±</button></div>
+                        <div class="col"><button type="button" id="Pourcent" class="touche touche-blanc w-100">%</button></div>
+
+                        <div class="col"><button type="button" id="4" class="touche touche-gris w-100">4</button></div>
+                        <div class="col"><button type="button" id="5" class="touche touche-gris w-100">5</button></div>
+                        <div class="col"><button type="button" id="6" class="touche touche-gris w-100">6</button></div>
+                        <div class="col"><button type="button" id="Fois" class="touche touche-blanc w-100 ope"><i class="fa-solid fa-xmark"></i></button></div>
+                        <div class="col"><button type="button" id="Div" class="touche touche-blanc w-100 ope">/</button></div>
+
+                        <div class="col"><button type="button" id="1" class="touche touche-gris w-100">1</button></div>
+                        <div class="col"><button type="button" id="2" class="touche touche-gris w-100">2</button></div>
+                        <div class="col"><button type="button" id="3" class="touche touche-gris w-100">3</button></div>
+                        <div class="col"><button type="button" id="Plus" class="touche touche-blanc w-100 ope">+</button></div>
+                        <div class="col"><button type="button" id="Moins" class="touche touche-blanc w-100 ope">-</button></div>
+
+                        <div class="col largeur-double"><button type="button" id="0" class="touche touche-gris w-100">0</button></div>
+                        <div class="col"><button type="button" id="dot" class="touche touche-virgule w-100">.</button></div>
+                        <div class="col largeur-double"><button type="button" id="Exe" class="touche touche-blanc w-100">EXE</button></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

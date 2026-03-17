@@ -1,0 +1,81 @@
+/* Couleur de fond générale de la calculatrice */
+.fond {
+    background-color: #00BFFF; /* Deep Sky Blue du design */
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* L'écran */
+.ecran {
+    background-color: #030330;
+    border-radius: 10px;
+    height: 80px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+/* Style de base pour TOUTES les touches */
+.touche {
+    height: 60px;
+    border-radius: 50px; /* Donne l'aspect ovale/pillule */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "Black Ops One", system-ui, cursive;
+    font-size: 1.2rem;
+    transition: transform 0.1s, filter 0.1s;
+    user-select: none;
+    border: none;
+}
+
+/* Effet au clic */
+.touche:active {
+    transform: scale(0.95);
+    filter: brightness(0.9);
+}
+
+/* --- Variantes de couleurs --- */
+
+/* Touches Orange (CE, C, Backspace) */
+.touche-orange {
+    background-color: #EB6123;
+    color: white;
+}
+
+/* Touches Roses (Mémoire) */
+.touche-rose {
+    background-color: #D925AC;
+    color: white;
+}
+
+/* Touches Grises (Chiffres) */
+.touche-gris {
+    background-color: #C4C4C4;
+    color: white;
+    font-size: 1.5rem; /* Chiffres un peu plus gros */
+}
+
+/* Touches Grises (,) */
+.touche-virgule {
+    background-color: #C4C4C5;
+    color: white;
+    font-size: 1.5rem; /* Chiffres un peu plus gros */
+}
+
+/* Touches Blanches (Opérations) */
+.touche-blanc {
+    background-color: #FFFFFF;
+    color: #C4C4C4; /* Le texte est gris clair sur fond blanc */
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+
+.largeur-double {
+    flex: 0 0 40% !important;
+    width: 40% !important;
+}

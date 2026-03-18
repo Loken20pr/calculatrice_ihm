@@ -36,6 +36,10 @@ function callBackButton(event) {
         resultat = effectuerOperation(btnId);
     } else if (btnId === "Exe") {
         resultat = egal();
+    } else if (btnId === "MPlus") {
+        resultat = memoryAdd();
+    } else if (btnId === "MMoins") {
+        resultat = memorySubtract();
     }
 
     renderView(resultat);

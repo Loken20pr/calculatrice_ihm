@@ -65,11 +65,12 @@ L'idée est de créer un logiciel qui permet de créer, manipuler et faire des c
 
 ---
 
-## Technologies utilisées
+## Logiciels utilisées
 
-- **Java** (POO, conception orientée objets)
-- **JUnit 5** (pour les tests unitaires réalisés en TDD)
-- **Git / GitHub** (gestion de version et travail collaboratif)
+- **Eclipse IDE**
+- **Java - JDK 26** 
+- **JUnit 5** 
+- **Git / GitHub** 
 
 ---
 
@@ -84,7 +85,7 @@ applicationPolynome/
 │   │   ├── OutilRecuperationDonneePolynome.java
 │   │   ├── OutilSauvegarde.java
 │   │   ├── SaisieUtilisateur.java                
-│   └── sae202polynome/
+│   ├── sae202polynome/
 │   │   ├── Racine.java
 │   │   ├── Polynome.java
 │   │   ├── Monome.java
@@ -92,6 +93,12 @@ applicationPolynome/
 │   │   ├── MonomeTest.java
 │   │   ├── PolynomeTest.java
 │   │   ├── RacineTest.java
+├── doc/
+│   ├── plan_projet.pdf
+│   ├── dossier_technique.pdf
+│   └── manuel_utilisateur.pdf
+└── spec/
+│   └── cahier_des_charges.pdf
 ```
 
 ---
@@ -124,14 +131,19 @@ java -jar applicationPolynome.jar
 
 ## Organisation du projet
 
-On a suivi un **cycle de développement itératif** avec des itérations de 3 semaines, inspiré des méthodes agiles.
+Nous avons suivi un **cycle de développement itératif** avec des itérations de 3 semaines, inspiré des méthodes agiles.
 
-| Itération | Période | Objectifs principaux |
-|-----------|---------|----------------------|
-| 1 | Semaines 13–15 | Création, affichage, addition |
-| 2 | Semaines 16–18 | Multiplication, division, dérivation |
-| 3 | Semaines 19–21 | Persistance, intégration, extensions |
-| Finalisation | Semaines 22–23 | Tests, corrections, documentation |
+| Itération | Période | 
+|-----------|---------|
+| 1 | Semaines 16–18 | 
+| 2 | Semaines 19–21 | 
+| 3 | Semaines 21–23 | 
+
+---
+
+## Documentation
+
+Toute la documentation peut se trouver dans le dossier : 
 
 ---
 

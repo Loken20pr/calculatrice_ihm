@@ -1,11 +1,11 @@
 # Bibliothèque de calculs dans IR[X]
 
 Projet réalisé dans le cadre des SAE **S2.02** (Exploration algorithmique) et **S2.05** (Gestion de projet)  
-**BUT Informatique 1ère année** — IUT de Rodez — Année universitaire 2025/2026
+**BUT Informatique 1ère année**, IUT de Rodez, Année universitaire 2025/2026
 
 ---
 
-## Équipe
+## Équipe de Maître d'Oeuvre
 
 | Nom | Prénom |
 |-----|--------|
